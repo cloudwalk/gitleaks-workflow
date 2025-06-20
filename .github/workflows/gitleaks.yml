@@ -24,6 +24,6 @@ jobs:
         uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GHA_PAT }}
-          GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE_PUBLIC }}
+          GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
           GITLEAKS_ENABLE_UPLOAD_ARTIFACT: "false"
           GITLEAKS_VERSION: 8.26.0
